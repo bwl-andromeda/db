@@ -1,0 +1,9 @@
+-- Удаление всех таблиц
+DROP TABLE IF EXISTS current_payments CASCADE;
+DROP TABLE IF EXISTS archived_payments CASCADE;
+DROP TABLE IF EXISTS accounts CASCADE;
+DROP TABLE IF EXISTS account_owners CASCADE;
+DROP TABLE IF EXISTS account_statuses CASCADE;
+DROP TABLE IF EXISTS site_pages CASCADE;
+DROP TABLE IF EXISTS parent_pages CASCADE;
+DROP TABLE IF EXISTS bank_offices CASCADE;
